@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>title</key>
+    <string>ccock18</string>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>General</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Enabled</string>
+            <key>key</key>
+            <string>Enabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Quick Access Buttons</string>
+            <key>key</key>
+            <string>QuickAccessButtonsEnabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Haptics</string>
+            <key>key</key>
+            <string>HapticsEnabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Appearance</string>
+            <key>footerText</key>
+            <string>turn off "Useless stuff" if you don't want to see the paw indicator or my name on page 3</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Circular Modules (iOS 26)</string>
+            <key>key</key>
+            <string>CircularModules</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <false/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Useless stuff</string>
+            <key>key</key>
+            <string>PromoPageEnabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Paging</string>
+            <key>footerText</key>
+            <string>PAnim gives you better animation when holding down the pager indicator and better animation in edit mode, disable if you're experiencing bugs but you will lose holding down functionality when doing so.</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Enable Paging</string>
+            <key>key</key>
+            <string>PagingEnabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>PAnim</string>
+            <key>key</key>
+            <string>ExperimentalPaging</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <false/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Editing</string>
+            <key>footerText</key>
+            <string>lets you edit the Control Center module by resizing it, or repositioning module, thats it. It may be unstable.
+
+FYI: if you have home buttoned iphone, make sure you have more than 10 control center module</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>PACCEdit (EXPERIMENTAL)</string>
+            <key>key</key>
+            <string>EditModeEnabled</string>
+            <key>defaults</key>
+            <string>pawxed.ccock18.preferences</string>
+            <key>default</key>
+            <false/>
+            <key>PostNotification</key>
+            <string>pawxed.ccock18/ReloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Actions</string>
+            <key>footerText</key>
+            <string>made by pawxed
+https://p4w.neocities.org
+
+special thanks to:
+@abraham_licnoln (early tester)
+@winaviation (CC design and other stuff)
+@duynguyen0823 (early tester)
+@unknownuser_47 (early tester)
+@nbxz (early tester)
+@trevortoop_08753 (early tester)
+</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Respring</string>
+            <key>action</key>
+            <string>respring</string>
+        </dict>
+    </array>
+</dict>
+</plist>
