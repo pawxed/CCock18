@@ -1,0 +1,9 @@
+Package: pawxed.ccock18
+Name: ccock18
+Version: 0.0.4a
+Architecture: iphoneos-arm
+Description: iOS 18 like control center, well not an exact replica for sure
+Maintainer: pawxed
+Author: pawxed
+Section: Tweaks
+Depends: firmware (>= 14.0), firmware (<< 17.4), ellekit, com.opa334.ccsupport, mobilesubstrate, preferenceloader
